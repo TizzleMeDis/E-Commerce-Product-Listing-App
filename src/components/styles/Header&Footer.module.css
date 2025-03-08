@@ -1,0 +1,49 @@
+:root {
+    --backgroundColor: rgb(251, 254, 249);
+    --textColor: rgb(25, 25, 35);
+    --primaryAccentColor: rgb(14, 121, 178);
+    --secondaryAccentColor: rgb(123, 114, 99);
+    --highlightColor: rgb(224, 142, 69);
+}
+.header {
+    display: flex;
+    position: sticky;
+    top:0px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    background-color: rgba(0,0,0, 0.1);
+}
+
+.logo {
+    width: 3rem;
+    transition: all ease 500ms
+}
+.logo:hover {
+    width: 3.1rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.link {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: all ease 500ms
+}
+
+.link:hover {
+    font-size: 1.1rem;
+    color: var(--backgroundColor);
+    background-color: var(--primaryAccentColor);
+}
+
+.footer {
+
+}
