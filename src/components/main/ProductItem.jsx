@@ -6,9 +6,14 @@ export default function ProductItem({products}) {
             {products.map(element => {
                 return (
                     <div className={styles.listItem} key={element.id}>
-                        <h5>{element.name}</h5>
-                        <p>{element.price}</p>
-                        <h6>{element.description}</h6>
+                        <div className={styles.imageContainer}>
+                            <img className={styles.image} src={element.picture} />
+                        </div>
+                        <div className={styles.productInfo}>
+                            <h5 className={styles.productName}>{element.name}</h5>
+                            <p className={styles.productPrice}>$ {element.price}</p>
+                            <h6 className={styles.productDescription}>{element.description}</h6>
+                        </div>
                     </div>
                 )
             })}

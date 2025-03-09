@@ -52,19 +52,43 @@
     display: flex;
     flex-direction: column;
 
-    width: 80%;
+    width: 90%;
 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin:1rem;
+    padding: 1rem;
     border: 1px solid black;
 }
 
-.listItem {
-    font-size: larger;
+.productsHeader {
+    margin: 1rem;
+    padding: 1rem;
 }
 
+
+.listItem {
+    font-size: larger;
+    border: 1px solid black;
+    padding: 2rem;
+    transition: all ease 1000ms;
+}
+.listItem:hover {
+    font-size: larger;
+    margin: 0.2rem;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
 .productsList {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 3rem;
+}
+
+.imageContainer {
+    max-width: 15rem;
+}
+
+.image {
+    width: 10rem;
 }

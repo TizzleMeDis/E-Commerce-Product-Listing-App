@@ -1,0 +1,120 @@
+{
+    "Security & Life Safety": [
+        {
+            "name": "Door/Window Sensor",
+            "brand": "Qolsys",
+            "model": "QS1135-840",
+            "features": ["S-Line Encrypted", "Battery Powered", "Easily Mountable"],
+            "price": 125,
+            "picture": "https://qolsys.com/wp-content/uploads/2019/05/Mini-S-Product-1.jpg"
+        },
+        {
+            "name": "Shock Sensor",
+            "brand": "Versa",
+            "model": "319.5 MHz",
+            "features": ["S-Line Encrypted", "Battery Powered", "Easily Mountable"],
+            "price": 149,
+            "picture": "https://www.wave-electronics.com/media/catalog/product/1/8/180109-main-a4ef8923edc15cb10cb0926d707490edf77dc381.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+        },
+        {
+            "name": "Motion Sensor",
+            "brand": "Qolsys",
+            "model": "QS1231-840",
+            "features": ["S-Line Encrypted", "Battery Powered", "Motion Detection"],
+            "price": 219,
+            "picture": "https://qolsys.com/wp-content/uploads/2019/05/Motion-S-Product-1.jpg"
+        },
+        {
+            "name": "Glass Break Sensor",
+            "brand": "Qolsys",
+            "model": "QS1431-840",
+            "features": ["S-Line Encrypted", "Battery Powered", "Glass Break Detection"],
+            "price": 219,
+            "picture": "https://qolsys.com/wp-content/uploads/2019/05/Glass-S-Product-1.jpg"
+        },
+        {
+            "name": "Smoke & Heat Detector",
+            "brand": "Qolsys",
+            "model": "QS5110-840",
+            "features": ["Z-Wave", "Battery Operated", "Smoke Sensitive"],
+            "price": 229,
+            "picture": "https://qolsys.com/wp-content/uploads/2019/05/Smoke-Product.jpg"
+        },
+        {
+            "name": "Carbon Monoxide Detector",
+            "brand": "Qolsys",
+            "model": "QS5210-840",
+            "features": ["Z-Wave", "Battery Operated", "Monitored Dispatching"],
+            "price": 219,
+            "picture": "https://qolsys.com/wp-content/uploads/2019/05/Carbon-Product.jpg"
+        },
+        {
+            "name": "Heat Detector",
+            "brand": "Qolsys",
+            "model": "QS5518-840",
+            "features": ["Heat detection", "Battery Powered", "Mobile alerts"],
+            "price": 129,
+            "picture": "https://qolsys.com/wp-content/uploads/2023/03/Heat-Product-200-1.jpg"
+        }
+    ],
+    "Automation": [
+        {
+            "name": "Keypad Smart Lock",
+            "brand": "Kwikset",
+            "model": "Home Connect 620",
+            "features": ["Keyless entry", "Remote access", "Fire Safety Unlocking"],
+            "price": 249,
+            "picture": "https://images.thdstatic.com/productImages/b0dcc406-7f80-449c-89f3-4c1c37faec30/svn/kwikset-electronic-deadbolts-869hc620trz715-64_600.jpg"
+        },
+        {
+            "name": "Smart Thermostat",
+            "brand": "Alarm.com",
+            "model": "ADC-T2000",
+            "features": ["Fire Safety Shut Off", "Energy saving modes", "Remote temperature adjustment"],
+            "price": 249,
+            "picture": "https://www.wave-electronics.com/media/catalog/product/1/7/170365-main-bdcc2680bbd846663268759f669c07dab1c3f964.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+        },
+        {
+            "name": "Garage Door Controller",
+            "brand": "Chamberlain",
+            "model": "MyQ-G0401-ES",
+            "features": ["Bluetooth", "Wifi Compatible", "Hub with Sensors"],
+            "price": 249,
+            "picture": "https://embed.widencdn.net/img/cgi/0vshcvg4zp/420px/MYQG0401_hero_1.png"
+        },
+        {
+            "name": "Z-Wave Smart Switch",
+            "brand": "Jasco",
+            "model": "183176",
+            "features": ["App control", "Dimmable", "Schedules & timers"],
+            "price": 159,
+            "picture": "https://www.wave-electronics.com/media/catalog/product/1/8/183176-main-06c9d0a293340fd845de6c755c0bd23e9e606145.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+        }
+    ],
+    "Video Surveillance": [
+        {
+            "name": "Outdoor HD Wi-Fi Camera",
+            "brand": "Alarm.com",
+            "model": "ADC-724X",
+            "features": ["Night vision", "Video Analytics", "Cloud & local storage"],
+            "price": 349,
+            "picture": "https://www.wave-electronics.com/media/catalog/product/1/7/174202-main-503081d9786268f72a94c98f5c11ec00a93fb959.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+        },
+        {
+            "name": "Indoor HD Wi-Fi Camera",
+            "brand": "Alarm.com",
+            "model": "ADC-V515",
+            "features": ["HD video", "Two-way audio", "Motion alerts"],
+            "price": 279,
+            "picture": "https://www.wave-electronics.com/media/catalog/product/1/6/169790-main-2e104da942c05e36756f360e7166ebec51e15f45.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+        },
+        {
+            "name": "Doorbell HD Wi-Fi Camera",
+            "brand": "Alarm.com",
+            "model": "ADC-VDB750",
+            "features": ["Button Press Notification", "Two-way audio", "High Resolution"],
+            "price": 349,
+            "picture": "https://www.wave-electronics.com/media/catalog/product/1/8/182729-main-009c636cdf3698845a89fa0787b161e6165007d9.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+        }
+    ]
+}
