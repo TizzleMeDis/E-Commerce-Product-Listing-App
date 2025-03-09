@@ -1,0 +1,40 @@
+.footer {
+    background-color: var(--highlightColor);
+    color: var(--backgroundColor);
+
+    display: flex;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.labels, .inputs, .contactInfo {
+    display: block;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+
+}
+
+.inputs {
+    padding: .5rem;
+    font-size: large;
+}
+.contactHeader, .formHeader {
+    margin: 1rem;
+}
+
+.contactInfo {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.disclaimerContainer {
+
+}
+
+.badgeContainer {
+    background-color: var(--backgroundColor);
+}

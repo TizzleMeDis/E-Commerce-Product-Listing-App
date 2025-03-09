@@ -1,9 +1,9 @@
 :root {
     --backgroundColor: rgb(251, 254, 249);
-    --textColor: rgb(25, 25, 35);
+    --textColor: rgb(22, 37, 33);
     --primaryAccentColor: rgb(14, 121, 178);
-    --secondaryAccentColor: rgb(123, 114, 99);
-    --highlightColor: rgb(224, 142, 69);
+    --secondaryAccentColor: rgb(192, 224, 222);
+    --highlightColor: rgb(79, 124, 172);
 }
 
 body {
