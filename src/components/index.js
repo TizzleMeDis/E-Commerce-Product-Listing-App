@@ -3,4 +3,4 @@ import Main from "./Main";
 import Footer from "./Footer";
 
 
-export {Header, Main, Footer}
+export {Header, Main, Footer} //minimizing amount of code in the App.jsx file

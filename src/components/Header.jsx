@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/shield.svg'
 import styles from './styles/Header.module.css'
-export default function Header() {
+export default function Header() { //Not making full site. Just a way to make a more vizually please assignment
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
@@ -13,8 +13,6 @@ export default function Header() {
         <div className={styles.link}>Shopping Cart</div>
         <div className={styles.link}>Account</div>
       </div>
-      
-      
     </div>
   )
 }

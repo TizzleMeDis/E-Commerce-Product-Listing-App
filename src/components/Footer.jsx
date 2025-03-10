@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles/Footer.module.css'
-export default function Footer() {
+export default function Footer() { //Just small disclamer and form section. Doesn't actually do anything.
   return (
     <div className={styles.footer}>
       <div className={styles.contactContainer}>

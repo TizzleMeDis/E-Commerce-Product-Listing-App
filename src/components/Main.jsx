@@ -11,10 +11,11 @@ export default function Main({products}) {
         <img src={"https://media.istockphoto.com/id/1188875450/vector/smart-home-technology-conceptual-banner-building-consists-digits-and-connected-with-icons-of.jpg?s=612x612&w=0&k=20&c=p-8BEDSOYEG4F9yXFzPo2vIq6GCXIyC9_GZtmgCaQcU="} className={styles.bannerImage}/> 
         <img src={"https://media.istockphoto.com/id/1412400653/photo/man-setting-an-alarm-code-for-home-security.jpg?s=612x612&w=0&k=20&c=pucxXYfXRitHWLmdh73Lw1dzoGXq4n2TUR5KzP1p1Bg="} className={styles.bannerImage}/>
       </div>
+
       <h1 className={styles.companyName}>Secure Home Solutions</h1>
       <div className={styles.bannerModalContainer}>
-          <Banner/>
-          <Modal />
+          <Banner />
+          <Modal user={"Admin"}/> {/** if there is an implementation of users later */}
         </div>
         <ProductList products={products} />
     </div>
