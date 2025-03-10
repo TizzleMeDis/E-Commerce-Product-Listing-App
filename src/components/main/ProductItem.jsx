@@ -1,18 +1,24 @@
 import React from 'react'
-import styles from '../styles/Main.module.css'
+import styles from '../styles/Products.module.css'
 export default function ProductItem({products}) {
     return (
         <div className={styles.productsList}>
             {products.map(element => {
                 return (
-                    <div className={styles.listItem} key={element.id}>
+                    <div className={styles.listItem} key={element.id} style={element.style}>
+                        <h2 className={styles.productName}>{element.name}</h2>
                         <div className={styles.imageContainer}>
                             <img className={styles.image} src={element.picture} />
                         </div>
                         <div className={styles.productInfo}>
-                            <h5 className={styles.productName}>{element.name}</h5>
-                            <p className={styles.productPrice}>$ {element.price}</p>
-                            <h6 className={styles.productDescription}>{element.description}</h6>
+                            <ul>
+                                {
+                                    element.features.map((feature, index) => {
+                                        return (<li key={index} className={styles.productFeature}>{feature}</li>)
+                                    })
+                                }
+                            </ul>
+                            <p className={styles.productPrice}>Price: ${element.price}</p>
                         </div>
                     </div>
                 )
